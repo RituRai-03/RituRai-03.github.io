@@ -10,7 +10,7 @@ body {
   align-items: center;
   background-color: rgb(19, 22, 22);
   color: white;
-  padding: 9px 20px;
+  padding: 0.563rem 1.25rem;
 }
 
 
@@ -18,26 +18,26 @@ body {
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
-  height: 30px;
-  width: 70px;
+  height: 1.875rem;
+  width: 4.375rem;
   display: flex;
 }
 
 .location .small {
-  font-size: 15px;
+  font-size: 0.938rem;
   color: #ccc;
 }
 
 .location .bold {
   display: flex;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   align-items: bottom;
 
 }
@@ -47,24 +47,24 @@ body {
 .search-bar {
   display: flex;
   flex: 1;
-  max-width: 850px;
-  margin: 0 20px;
-  height: 45px;
-  width: 850px;
+  max-width: 53.125rem;
+  margin: 0 1.25rem;
+  height: 2.813rem;
+  width: 53.125rem;
 }
 
 .search-bar select,
 .search-bar input,
 .search-bar button {
-  padding: 8px;
+  padding: 0.5rem;
   border: none;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .search-bar select {
   background-color: #ddd;
-  border-radius: 4px 0 0 4px;
-  width: 55px;
+  border-radius: 0.25rem 0 0 0.25rem;
+  width: 3.438rem;
 }
 
 .search-bar input {
@@ -73,14 +73,14 @@ body {
 
 .search-bar button {
   background-color: #febd69;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 0.25rem 0.25rem 0;
   cursor: pointer;
-  width: 50px;
+  width: 3.125rem;
 }
 
 .flag{
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
  
 }
@@ -88,27 +88,27 @@ body {
 .language-select{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.313rem;
     background-color: rgb(19, 22, 22);
     color: white;
-    border: 0px;
-    font: 14px Arial, sans-serif;
+    border: 0rem;
+    font: 0.875rem Arial, sans-serif;
 }
 .cart{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 0.313rem;
 }
 
 .nav-right {
   display: flex;
   align-items: left;
-  gap: 35px;
-  font-size: 14px;
+  gap: 2.188rem;
+  font-size: 0.875rem;
 }
 
 .nav-right .small {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #ccc;
 }
 
@@ -120,18 +120,18 @@ body {
 
 .cart{
   font-weight: bold;
-  margin-left: 5px;
-  font-size: 20px;
+  margin-left: 0.313rem;
+  font-size: 1.25rem;
 }
 /* .cart-icon {
  display: flex;
- height: 50px;
- width: 50px;
+ height: 3.125rem;
+ width: 3.125rem;
 background-color: rgb(19, 22, 22);
 } */
 
 .hamburger {
-  font-size: 15px;
+  font-size: 0.938rem;
   cursor: pointer;
   display: flex; 
   color: white;
@@ -142,9 +142,9 @@ background-color: rgb(19, 22, 22);
   background-color: rgb(36, 50, 65);
   color: white;
   display: flex;
-  gap: 20px;
-  padding: 10px 20px;
-  font-size: 15px;
+  gap: 1.25rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.938rem;
   overflow-x: auto;
 }
 
@@ -159,7 +159,7 @@ background-color: rgb(19, 22, 22);
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .search-bar, .nav-right {
     display: none;
   }
@@ -173,7 +173,7 @@ background-color: rgb(19, 22, 22);
 .main-container {
     background-color: #e3e6e6; /* Classic Amazon light gray background */
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .hero-section {
@@ -191,37 +191,101 @@ background-color: rgb(19, 22, 22);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     /* Pulls the cards up over the hero image */
-    margin-top: -250px; 
+    margin-top: -15.625rem; 
     position: relative;
     z-index: 1;
 }
 
 .box {
-    height: 420px;
-    width: 300px;
+    height: 26.25rem;
+    width: 18.75rem;
     background-color: white;
-    padding: 20px;
+    padding: 1.25rem;
+
     cursor: pointer;
 }
 
+.product-comp {
+    background-color: #f3f3f3; 
+    padding: 1.25rem;
+    font-family: Arial, sans-serif;
+}
+
+
+.box {
+    width: 21.875rem;
+    background-color: #fff;
+    padding: 1.25rem 1.25rem 0.938rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.box h3 {
+    font-size: 1.313rem;
+    line-height: 1.706rem;
+    margin-bottom: 0.625rem;
+    color: #0f1111;
+}
+
+
+.box-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0.938rem; 
+    margin-bottom: 0.938rem;
+}
+
+
+.box-a div {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.box-a img {
+    width: 100%;
+    height: 7.5rem; 
+    object-fit: cover; 
+}
+
+.box-a span {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    margin-top: 0.25rem;
+    color: #0f1111;
+}
+
+
+.box a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.813rem;
+}
+
+.box a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
 .box-content h2 {
-    font-size: 21px;
-    margin-bottom: 10px;
+    font-size: 1.313rem;
+    margin-bottom: 0.625rem;
     color: #111;
 }
 
 .box-img {
-    height: 300px;
+    height: 18.75rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 .box-content p {
-    margin-top: 15px;
-    font-size: 13px;
+    margin-top: 0.938rem;
+    font-size: 0.813rem;
     color: #007185;
 }
 
@@ -232,7 +296,7 @@ background-color: rgb(19, 22, 22);
 
 .footer{
     width:100%;
-    height:450px;
+    height:28.125rem;
     transition: all 0.2s;
 }
 
@@ -240,44 +304,116 @@ background-color: rgb(19, 22, 22);
 
 .detail{
     background-color: #232f3e;
-    height:375px;
+    height:23.438rem;
 }
 .table{
-    margin:0 150px;
+    margin:0 9.375rem;
     height:100%;
     display: flex;
     justify-content: space-around;
-    padding-top:50px;
+    padding-top:3.125rem;
 }
 .table div{
-    width:230px;
+    width:14.375rem;
 }
 .t-head{
-    font-size: 16px;
+    font-size: 1rem;
     color:white;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 .table li{
     color: rgb(223,221,221);
-    padding-top:10px;
+    padding-top:0.625rem;
     font-weight: lighter;
     list-style: none;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .copy{
     background-color: #232f3e;
-    height: 90px;
-    padding:40px;
+    height: 5.625rem;
+    padding:2.5rem;
     text-align: center;
 }
 .copy span{
     color:white;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .line{
-    height:0.4px;
+    height:0.0.25rem;
     width:100%;
     background-color: rgb(172,172,172);
 
 }
+
+
+@media screen and (max-width: 37.5rem) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.625rem;
+  }
+
+  .search-bar {
+    display: none; 
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 0.5rem;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5rem; 
+  }
+
+  .box {
+    width: 90%;
+    height: auto;
+  }
+
+  .table {
+    flex-direction: column;
+    margin: 0 1rem;
+    padding-top: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 56.25rem) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .search-bar {
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .nav-right {
+    gap: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .shop-section {
+    gap: 0.625rem;
+  }
+
+  .box {
+    width: 45%; 
+  }
+
+  .table {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
